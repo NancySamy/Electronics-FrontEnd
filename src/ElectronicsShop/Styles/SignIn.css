@@ -1,0 +1,31 @@
+
+.SigninContainer{
+  width: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+.form-signin {
+  max-width: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
